@@ -25,6 +25,5 @@ export default createContainer(() => {
 
   return {
     detailsReady: handle.ready(),
-    details: Meteor.collection('products').find()
   };
 },DetailsContainer);
